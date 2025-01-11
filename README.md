@@ -21,7 +21,7 @@
                 # Hence, we return True because we can always construct 1 or more palindromes 
                 # as long as the string length is greater than or equal to `k`.
                 if len(s) < k: 
-                    return True
+                    return False
 
                 # Count the number of characters in `s` that appear an odd number of times.
                 # We use Counter to get the frequency of each character in the string.
